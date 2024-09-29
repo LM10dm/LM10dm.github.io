@@ -1,3 +1,41 @@
+/* General styling */
 body{
 	background-color: #7CB9E8;
+	margin: 0;
+    font-family: Arial, sans-serif;
+}
+nav {
+    background-color: #007BFF; /* Blue background */
+}
+
+nav ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    justify-content: space-around;
+}
+
+nav ul li {
+    margin: 0;
+}
+
+nav ul li a {
+    color: white;
+    text-decoration: none;
+    padding: 15px 20px;
+    display: block;
+    transition: background-color 0.3s ease;
+}
+
+nav ul li a:hover {
+    background-color: #0056b3; /* Darker blue on hover */
+}
+
+/* Responsive styling for small screens */
+@media (max-width: 600px) {
+    nav ul {
+        flex-direction: column;
+        align-items: center;
+    }
 }
