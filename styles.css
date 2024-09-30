@@ -36,3 +36,11 @@ footer{
 #content{
 	padding-top: 120px;
 }
+#content .gallery div{
+	display: inline-block;
+
+}
+#content .gallery img{
+	height: 320px;
+	width: auto;
+}
