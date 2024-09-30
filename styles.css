@@ -1,0 +1,31 @@
+*{
+
+}
+html, body{
+	padding: 0;
+	margin: 0;
+}
+nav{
+	float: right;
+}
+nav ul{
+
+}
+nav ul li{
+	display: inline-block;
+	margin-right: 20px;
+}
+
+#menu{
+	background-color: lightblue;
+	position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;  /* Make the navbar take full width */
+    background-color: lightblue; /* Your background color */
+    padding: 10px 0;  /* Optional: Adjust padding as needed */
+    z-index: 1000; 
+}
+#content{
+	padding-top: 120px;
+}
