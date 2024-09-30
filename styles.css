@@ -15,6 +15,13 @@ nav ul li{
 	display: inline-block;
 	margin-right: 20px;
 }
+footer{
+	background-color: lightblue;
+	position: fixed;
+	bottom: 0;
+	width: 100vw;
+	text-align: center;
+}
 
 #menu{
 	background-color: lightblue;
